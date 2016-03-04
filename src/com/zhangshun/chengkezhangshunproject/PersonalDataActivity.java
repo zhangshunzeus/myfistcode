@@ -2,20 +2,14 @@ package com.zhangshun.chengkezhangshunproject;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.TextView;
 
-public class PersonalCenterActivity extends Activity {
-	Button btn;
-	TextView textview;
+public class PersonalDataActivity extends Activity {
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.personal_center);
-		
-		
-		
+		setContentView(R.layout.personal_data);
 	}
-
+	
 }
