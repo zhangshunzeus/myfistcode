@@ -1,14 +1,10 @@
 package com.zhangshun.chengkezhangshunproject;
 
 import java.util.ArrayList;
-
 import com.zhangshun.adapter.ClassifyAdapter;
 import com.zhangshun.demo.ClassifyDemo;
-
 import android.app.Activity;
 import android.os.Bundle;
-import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.ListView;
 
 public class ClassifyActivity extends Activity {
