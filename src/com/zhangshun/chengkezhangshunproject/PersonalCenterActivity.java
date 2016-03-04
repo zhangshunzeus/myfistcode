@@ -6,6 +6,7 @@ import android.widget.Button;
 
 public class PersonalCenterActivity extends Activity {
 	Button btn;
+	TextView textview;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
