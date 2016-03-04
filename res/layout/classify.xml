@@ -65,12 +65,11 @@
         android:layout_height="10dp"
         android:background="#EDEDED" />
 
-    <LinearLayout
-        android:id="@+id/course_linear"
+    <ListView
+        android:id="@+id/classify_list"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-    </LinearLayout>
+        android:layout_weight="1" >
+    </ListView>
 
 </LinearLayout>

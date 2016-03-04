@@ -4,5 +4,7 @@
     <string name="app_name">ChengKeZsProject</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="gangqin">钢琴</string>
+    <string name="yinyuelei">音乐类</string>
 
 </resources>
