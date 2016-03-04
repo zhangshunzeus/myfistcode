@@ -2,6 +2,7 @@ package com.zhangshun.chengkezhangshunproject;
 
 import java.util.ArrayList;
 
+import com.example.appferal.R;
 import com.zhangshun.adapter.HomePageAdapter;
 import com.zhangshun.demo.HomePageDemo;
 

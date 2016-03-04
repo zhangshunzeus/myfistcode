@@ -2,8 +2,9 @@ package com.zhangshun.adapter;
 
 import java.util.ArrayList;
 
-import com.zhangshun.chengkezhangshunproject.R;
+import com.example.appferal.R;
 import com.zhangshun.demo.HomePageDemo;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,16 +1,13 @@
-package com.zhangshun.chengkezhangshunproject;
-
-import com.example.appferal.R;
+package com.example.appferal;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-public class PostActivity extends Activity {
-
+public class DetailsActicity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.post);
+		setContentView(R.layout.details);
 	}
-
 }

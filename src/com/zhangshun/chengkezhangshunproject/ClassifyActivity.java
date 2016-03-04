@@ -1,8 +1,11 @@
 package com.zhangshun.chengkezhangshunproject;
 
 import java.util.ArrayList;
+
+import com.example.appferal.R;
 import com.zhangshun.adapter.ClassifyAdapter;
 import com.zhangshun.demo.ClassifyDemo;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;

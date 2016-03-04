@@ -1,5 +1,7 @@
 package com.zhangshun.chengkezhangshunproject;
 
+import com.example.appferal.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
