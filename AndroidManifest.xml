@@ -23,7 +23,16 @@
         <activity android:name="com.example.appferal.RegisterPhoneActicity" />
         <activity android:name="com.example.appferal.RegisterInfoActivity" />
         <activity android:name="com.example.appferal.DetailsActicity" />
-        <activity android:name="com.example.appferal.LiteraryActicity" >
+        <activity android:name="com.example.appferal.LiteraryActicity" />
+
+        <!-- 个人资料页面 -->
+        <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalDataActivity" >
+        </activity>
+        <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalCenterActivity" >
+        </activity>
+        <activity android:name="com.zhangshun.chengkezhangshunproject.HomePageActivity" >
+        </activity>
+        <activity android:name="com.zhangshun.chengkezhangshunproject.ClassifyActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,8 +1,11 @@
 package com.zhangshun.chengkezhangshunproject;
 
+import com.example.appferal.R;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class PersonalCenterActivity extends Activity {
 	Button btn;
@@ -12,6 +15,8 @@ public class PersonalCenterActivity extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.personal_center);
+		
+		
 		
 	}
 

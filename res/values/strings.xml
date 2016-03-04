@@ -8,8 +8,6 @@
     <string name="register">极速注册</string>
     <string name="lgn">登录</string>
     <string name="rgs">注册</string>
-    
-    
     <string name="login">完善资料</string>
     <string name="login_edit_name">  手机号/邮箱</string>
     <string name="login_edit_password">  密码</string>
@@ -20,7 +18,6 @@
     <string name="setpassword_text">重新发送（60）</string>
     <string name="setpassword_password">设置新密码</string>
     <string name="setpassword_btn">确定</string>
-    
     <string name="register_phone">填写手机号</string>
     <string name="register_phone_edittext">请输入手机验证码</string>
     <string name="register_phone_ed">请输入手机号码</string>
@@ -28,13 +25,11 @@
     <string name="register_phone_next">下一步</string>
     <string name="register_phone_text">我已阅读并同意</string>
     <string name="register_phone_texta">蹭课服务条款</string>
-    
     <string name="register_info">完善资料</string>
     <string name="register_info_name">请输入昵称</string>
     <string name="register_info_password">请输入密码</string>
     <string name="register_info_text">获取验证码</string>
     <string name="register_info_btn">开启蹭课之旅</string>
-    
     <string name="details">机构详情</string>
     <string name="details_name">汉昌 UI 培训机构</string>
     <string name="details_phone">023-88888888</string>
@@ -42,4 +37,7 @@
     <string name="details_yue">预约</string>
     <string name="details_numb">15</string>
     <string name="details_syn">   \t作为一家专业的建筑外装系统集成商，上海汉昌实业发展有限公司，多年来一直致力于建筑材料高新领域的开拓。</string>
+    <string name="gangqin">钢琴</string>
+    <string name="yinyuelei">音乐类</string>
+
 </resources>
