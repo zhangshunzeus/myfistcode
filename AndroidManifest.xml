@@ -31,13 +31,18 @@
         <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalCenterActivity" >
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.HomePageActivity" >
-        </activity>
-        <activity android:name="com.zhangshun.chengkezhangshunproject.ClassifyActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.zhangshun.chengkezhangshunproject.ClassifyActivity" >
+        </activity>
+        <activity android:name="com.zhangshun.activity.FragmentActivity">
+            
+            
+            
         </activity>
     </application>
 

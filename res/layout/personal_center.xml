@@ -166,11 +166,6 @@
                     android:src="@drawable/rub_course_go_to_next_right" />
             </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0.5px"
-                android:background="#EDEDED" />
-
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -181,14 +176,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/rub_course_mine_posts" />
+                    android:src="@drawable/rub_course_mine_apply_record_icon" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
-                    android:text="我的帖子"
+                    android:text="我的报名记录"
                     android:textColor="#3D4245" />
 
                 <ImageView
@@ -196,42 +191,6 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/rub_course_go_to_next_right" />
             </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0.5px"
-                android:background="#EDEDED" />
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:padding="10dp" >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/rub_course_mine_collect_lesson" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:layout_weight="1"
-                    android:text="我的收藏"
-                    android:textColor="#3D4245" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/rub_course_go_to_next_right" />
-            </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0.5px"
-                android:background="#EDEDED" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -250,7 +209,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
-                    android:text="消息"
+                    android:text="我的报名记录"
                     android:textColor="#3D4245" />
 
                 <ImageView
@@ -258,11 +217,6 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/rub_course_go_to_next_right" />
             </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0.5px"
-                android:background="#EDEDED" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -274,14 +228,14 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/rub_course_mine_settings_icon" />
+                    android:src="@drawable/rub_course_mine_apply_record_icon" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_weight="1"
-                    android:text="设置"
+                    android:text="我的报名记录"
                     android:textColor="#3D4245" />
 
                 <ImageView
@@ -289,14 +243,12 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/rub_course_go_to_next_right" />
             </LinearLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="30px"
-                android:background="#EDEDED" />
         </LinearLayout>
     </ScrollView>
 
-    <include layout="@layout/bottom_menu" />
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/fragment_home" />
 
 </LinearLayout>

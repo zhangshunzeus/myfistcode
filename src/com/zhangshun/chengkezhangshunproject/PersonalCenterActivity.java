@@ -16,8 +16,6 @@ public class PersonalCenterActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.personal_center);
 		
-		
-		
 	}
 
 }
