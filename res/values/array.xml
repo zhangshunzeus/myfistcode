@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_listview_data" >
+        <item>音乐类</item>
+        <item>语言/国学</item>
+        <item>运动类</item>
+    </array>
+    <array name="my_posts_data">
+        <item>我是如何考上高级uI设计师的1</item>
+         <item>我是如何考上高级uI设计师的2</item>
+          <item>我是如何考上高级uI设计师的3</item>
+           <item>我是如何考上高级uI设计师的4</item>
+            <item>我是如何考上高级uI设计师的5</item>
+         </array>
+         <array name="two_message_data">
+             <item>系统消息：你的预约已被处理，请注意上课时间1</item>
+             <item>系统消息：你的预约已被处理，请注意上课时间2</item>
+             <item>系统消息：你的预约已被处理，请注意上课时间3</item>
+             <item>系统消息：你的预约已被处理，请注意上课时间4</item>
+             
+         </array>
+    
+</resources>

@@ -1,43 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.work.teem_work.MainActivity" >
+    tools:context="my.learnomm.xiaozhang.com.leranomm.Main">
 
     <Button
-        android:id="@+id/main_1_bt"
+        android:id="@+id/button1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="蹭课已签约页面" />
 
     <Button
-        android:id="@+id/main_2_bt"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="蹭课消息页面" />
 
     <Button
-        android:id="@+id/main_3_bt"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="蹭课我的帖子页面" />
 
     <Button
-        android:id="@+id/main_4_bt"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="蹭课帖子记录页面" />
 
     <Button
-        android:id="@+id/main_5_bt"
+        android:id="@+id/button5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="蹭课分类页面" />
 
-    <Button
-        android:id="@+id/main_6_bt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <Button
-        android:id="@+id/main_7_bt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+    
 
 </LinearLayout>

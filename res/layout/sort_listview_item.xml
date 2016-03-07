@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/list_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="语言/国学" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+           android:padding="10dp"
+            android:id="@+id/lsit_item_image_one"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abce" />
+       
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/lsit_item_image_two"
+            android:padding="10dp"
+              android:layout_width="wrap_content"
+            android:layout_height="100dp"
+    
+            android:scaleType="centerCrop"
+            android:src="@drawable/abce" />
+    </LinearLayout> <LinearLayout
+             android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+           android:padding="10dp"
+            android:id="@+id/lsit_item_image_three"
+             android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abce" />
+      
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/lsit_item_image_four"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abce" />
+    </LinearLayout>
+
+
+</LinearLayout>
