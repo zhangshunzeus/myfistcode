@@ -19,7 +19,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_zhangshunmain);
 		for (int i = 0; i < bdi.length; i++) {
 			butto = (Button) findViewById(bdi[i]);
 			butto.setOnClickListener(listener);

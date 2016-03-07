@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sort_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="分类"
+         android:textColor="@color/text_black"
+        android:textSize="28sp" />
+
+    <fragment
+        android:id="@+id/sort_fragment_A"
+        android:name="my.learnomm.xiaozhang.com.leranomm.fragment.SortActivityFragmentA"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></fragment>
+
+    <fragment
+        android:id="@+id/sort_fragment_B"
+        android:name="my.learnomm.xiaozhang.com.leranomm.fragment.SortActivityFragmentB"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"></fragment>
+
+    <RadioGroup
+        android:id="@+id/sort_ridaoGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_home_page_not_selected_bg"
+            android:gravity="center"
+             android:textColor="@color/text_black"
+            android:text="首页"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_category_not_selected_bg"
+            android:gravity="center"
+            android:text="分类"
+             android:textColor="@color/text_black"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_group_not_selected_bg"
+            android:gravity="center"
+            android:text="圈子"
+             android:textColor="@color/text_black"
+            android:textSize="26sp" />
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+             android:textColor="@color/text_black"
+            android:drawableTop="@drawable/rub_course_me_not_selected_bg"
+            android:gravity="center"
+            android:text="我"
+            android:textSize="26sp" />
+    </RadioGroup>
+
+</LinearLayout>
