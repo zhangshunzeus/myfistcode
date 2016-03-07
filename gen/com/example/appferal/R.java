@@ -353,10 +353,10 @@ public final class R {
         public static final int action_settings=0x7f09007a;
         public static final int apply_left=0x7f090029;
         public static final int apply_right=0x7f09002a;
-        public static final int button01=0x7f09000d;
-        public static final int button02=0x7f09000e;
-        public static final int button03=0x7f09000f;
-        public static final int button04=0x7f090010;
+        public static final int button_intent_circle=0x7f09000f;
+        public static final int button_intent_classification=0x7f09000e;
+        public static final int button_intent_main=0x7f09000d;
+        public static final int button_intent_me=0x7f090010;
         public static final int check_dianzan=0x7f090078;
         public static final int check_pinglun=0x7f090077;
         public static final int chongqing=0x7f09001f;

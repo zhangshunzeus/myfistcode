@@ -1,9 +1,8 @@
 package com.page.android_post_details;
 
 import java.util.List;
-
 import com.example.appferal.R;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -44,6 +43,8 @@ public class PostDetailsAdapter extends BaseAdapter {
 		return position;
 	}
 
+	@SuppressLint("InflateParams")
+	@SuppressWarnings("deprecation")
 	@Override
 	public View getView(int position, View view, ViewGroup parent) {
 		// TODO Auto-generated method stub
@@ -61,7 +62,7 @@ public class PostDetailsAdapter extends BaseAdapter {
 		holder=(ViewHolder)view.getTag();
 		holder.imageView.setBackgroundDrawable(view.getResources().getDrawable(R.drawable.share_bg_right));
 		holder.textViewPingLunName.setText("小鸟");
-		holder.textViewPingLunContent.setText("还真是.......撒旦法撒旦飞洒阿斯蒂芬");
+		holder.textViewPingLunContent.setText("还真是....");
 		holder.textViewPingLunTime.setText("2015-12-4");
 		
 		return view;

@@ -25,8 +25,14 @@
         <activity android:name="com.example.appferal.DetailsActicity" />
         <activity android:name="com.example.appferal.LiteraryActicity" />
         <activity android:name="com.page.android_my_resgiration.MyResgiration" >
+            <!-- 我的报名记录-已受理 -->
         </activity>
+        <activity android:name="com.page.android_aboutus.AboutUs">
+           <!--  关于我们页面 -->
+        </activity>
+        
         <activity android:name="com.page.android_post_details.PostDetails" >
+           <!--  帖子详情页面 -->
         </activity>
 
         <!-- 个人资料页面 -->
@@ -34,9 +40,11 @@
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalCenterActivity" />
         <activity android:name="com.page.android_set.Set_feral" >
+            <!-- 设置页面 -->
         </activity>
 
         <activity android:name="com.page.android_circle.Circle" >
+           <!--  圈子页面 -->
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.ClassifyActivity" >
             <intent-filter>
