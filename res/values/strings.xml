@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-<<<<<<< HEAD
     <string name="app_name">appferal</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
@@ -40,8 +39,7 @@
     <string name="details_syn">   \t作为一家专业的建筑外装系统集成商，上海汉昌实业发展有限公司，多年来一直致力于建筑材料高新领域的开拓。</string>
     <string name="gangqin">钢琴</string>
     <string name="yinyuelei">音乐类</string>
+    <string name="about_us">\t\t蹭课课堂网致力于打造集实用性，互动性，趣味性为一体的在想英语学习平台，网站名称“蹭课课堂网”寓意带领广大的英语学习爱好者在快乐中轻松学习英语。网站于2008年初上线，是国内最受欢迎的开放式英语学习网站，已经赢得越来越多英语爱好者的信任与支持，已成为国内知名的英语学习网站之一。</string>
+    <string name="post_details_text">冻死了卡夫卡圣诞节疯狂拉升的解放啦深刻的积分接口是东方航空事叫对方开始，是电话妇科是几号房。但是否可哈萨克的经费和。是独立房间了开始问题儿童分工。</string>
 
-</resources>    <string name="about_us">\t\t蹭课课堂网致力于打造集实用性，互动性，趣味性为一体的在想英语学习平台，网站名称“蹭课课堂网”寓意带领广大的英语学习爱好者在快乐中轻松学习英语。网站于2008年初上线，是国内最受欢迎的开放式英语学习网站，已经赢得越来越多英语爱好者的信任与支持，已成为国内知名的英语学习网站之一。</string>
-	<string name="post_details_text">冻死了卡夫卡圣诞节疯狂拉升的解放啦深刻的积分接口是东方航空事叫对方开始，是电话妇科是几号房。但是否可哈萨克的经费和。是独立房间了开始问题儿童分工。</string>
 </resources>
->>>>>>> zhangwenbin0.1

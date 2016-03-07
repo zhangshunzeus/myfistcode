@@ -2,7 +2,7 @@ package com.page.android_post_details;
 
 import java.util.List;
 
-import com.page.android_feral.R;
+import com.example.appferal.R;
 
 import android.content.Context;
 import android.view.LayoutInflater;

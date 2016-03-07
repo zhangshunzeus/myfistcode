@@ -1,6 +1,7 @@
 package com.page.android_aboutus;
 
-import com.page.android_feral.R;
+
+import com.example.appferal.R;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,6 +1,6 @@
 package com.page.android_set;
 
-import com.page.android_feral.R;
+import com.example.appferal.R;
 
 import android.app.Activity;
 import android.os.Bundle;

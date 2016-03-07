@@ -2,7 +2,7 @@ package com.page.android_circle;
 
 import java.util.List;
 
-import com.page.android_feral.R;
+import com.example.appferal.R;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.view.LayoutInflater;
