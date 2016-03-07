@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_post_listview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:text="我是如何考上高级Ui设计师的" />
+
+    <TextView
+        android:id="@+id/item_post_listview_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_post_listview_title"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:text="2015-02-22" />
+
+    <LinearLayout
+        android:id="@+id/item_post_listview_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_post_listview_time"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/item_post_listview_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/rub_course_priase_grey" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_post_listview_praise_text"
+            android:layout_marginRight="20dp"
+            android:text="1232"/>
+
+        <ImageView
+            android:id="@+id/item_comment_listview_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/rub_course_comments_light" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:id="@+id/item_posts_listview_comment_text"
+            android:text="122"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
