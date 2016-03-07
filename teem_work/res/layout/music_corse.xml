@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp" >
+
+        <ImageView
+            android:id="@+id/music_corse_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/rub_course_back_icon" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/music_class_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="音乐类课程"
+            android:textColor="@color/text3"
+            android:textSize="14sp" />
+        <!-- 上三角 -->
+
+        <ImageView
+            android:id="@+id/music_corse_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:adjustViewBounds="true"
+            android:padding="1.5dp"
+            android:rotation="180"
+            android:src="@drawable/rub_course_descending_order" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/music_corse_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/music_corse_img1"
+            android:adjustViewBounds="true"
+            android:padding="1.5dp"
+            android:src="@drawable/rub_course_descending_order_non_sel" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/music_corse_time_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_toLeftOf="@id/music_corse_img1"
+            android:gravity="center_horizontal"
+            android:text="时间"
+            android:textColor="@color/text3"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/music_corse_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

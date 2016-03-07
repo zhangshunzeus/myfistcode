@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/gv_my_music_class_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/gv_my_music_class_1_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_img"
+        android:text="二胡十段兴趣班"
+        android:textColor="@color/text3"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/gv_my_music_class_2_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_1_tx"
+        android:paddingTop="4dp"
+        android:text="已报一人"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/gv_my_music_class_2_1_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_1_tx"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/gv_my_music_class_2_tx"
+        android:paddingTop="4dp"
+        android:text="渝中汉昌"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+    <!--  -->
+
+    <TextView
+        android:id="@+id/gv_my_music_class_3_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_2_tx"
+        android:background="@drawable/circle_rectange1"
+        android:paddingTop="4dp"
+        android:text="乐器"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/gv_my_music_class_3_1_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_2_tx"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/gv_my_music_class_3_tx"
+        android:background="@drawable/circle_rectange1"
+        android:paddingTop="4dp"
+        android:text="小学"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+    <!-- 第四行，剩余时间部分 -->
+
+    <TextView
+        android:id="@+id/gv_my_music_class_4_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/gv_my_music_class_2_tx"
+        android:layout_marginLeft="2dp"
+        android:paddingTop="4dp"
+        android:text="天"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/gv_my_music_class_4_1_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_2_tx"
+        android:layout_toLeftOf="@id/gv_my_music_class_4_tx"
+        android:paddingTop="4dp"
+        android:text="3"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/gv_my_music_class_4_2_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gv_my_music_class_2_tx"
+        android:layout_toLeftOf="@id/gv_my_music_class_4_1_tx"
+        android:paddingTop="4dp"
+        android:text="余"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+</RelativeLayout>

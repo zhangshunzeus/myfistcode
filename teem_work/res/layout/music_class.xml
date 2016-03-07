@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/music_class_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/rub_course_back_icon" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/music_class_tx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="音乐类"
+            android:textColor="@color/text3"
+            android:textSize="14sp" />
+    </RelativeLayout>
+    <!-- 灰线 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/grive_line" >
+    </View>
+    <!-- 选择栏 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/my_music_class_quanbu_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="全部"
+            android:textColor="@color/text4"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/my_music_class_gangqing_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="刚琴"
+            android:textColor="@color/text4"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/my_music_class_dajiyue_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="打击乐器"
+            android:textColor="@color/text4"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/my_music_class_yuanyue_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="弦乐器"
+            android:textColor="@color/text4"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/my_music_class_guanyue_tx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="管乐器"
+            android:textColor="@color/text4"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/grive_line" >
+    </View>
+
+    <GridView
+        android:id="@+id/my_music_class_gv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:padding="5dp" />
+
+</LinearLayout>

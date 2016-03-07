@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/lv_my_stor_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/lv_my_stor_1_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lv_my_stor_img"
+        android:padding="2.5dp"
+        android:text="二胡十班兴趣班"
+        android:textColor="@color/text3"
+        android:textSize="12sp" />
+    <!-- 第二航 -->
+
+    <TextView
+        android:id="@+id/lv_my_stor_2_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_my_stor_1_tex"
+        android:layout_toRightOf="@id/lv_my_stor_img"
+        android:padding="2.5dp"
+        android:text="已报一人"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lv_my_stor_2_1_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_my_stor_1_tex"
+        android:layout_toRightOf="@id/lv_my_stor_2_tex"
+        android:padding="2.5dp"
+        android:text="渝中汉昌"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+    <!-- 第三行 -->
+
+    <TextView
+        android:id="@+id/lv_my_stor_3_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_my_stor_2_tex"
+        android:layout_marginLeft="2.5dp"
+        android:layout_toRightOf="@id/lv_my_stor_img"
+        android:background="@drawable/circle_rectange1"
+        android:paddingLeft="2.5dp"
+        android:paddingRight="2.5dp"
+        android:text="乐器"
+        android:textColor="@color/text5"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/lv_my_stor_3_1_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lv_my_stor_2_tex"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/lv_my_stor_3_tex"
+        android:background="@drawable/circle_rectange1"
+        android:paddingLeft="2.5dp"
+        android:paddingRight="2.5dp"
+        android:text="小学"
+        android:textColor="@color/text5"
+        android:textSize="8sp" />
+    <!-- 第四行 -->
+
+    <TextView
+        android:id="@+id/lv_my_stor_4_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/lv_my_stor_3_1_tex"
+        android:text="天"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lv_my_stor_4_1_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lv_my_stor_3_1_tex"
+        android:layout_toLeftOf="@id/lv_my_stor_4_tex"
+        android:text="3"
+        android:textColor="@color/red1"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/lv_my_stor_4_2_tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/lv_my_stor_3_1_tex"
+        android:layout_toLeftOf="@id/lv_my_stor_4_1_tex"
+        android:text="第"
+        android:textColor="@color/text5"
+        android:textSize="10sp" />
+
+</RelativeLayout>
