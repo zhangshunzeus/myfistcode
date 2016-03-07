@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+        
+        <RadioButton
+            android:id="@+id/home_page"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_home_page_not_selected_bg"
+            android:gravity="center_horizontal"
+            android:text="首页"
+            android:textColor="#A89F9C" />
+        
+        <RadioButton
+            android:id="@+id/classify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_category_not_selected_bg"
+            android:gravity="center_horizontal"
+            android:text="分类"
+            android:textColor="#A89F9C" />
+        
+        <RadioButton
+            android:id="@+id/circle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_group_not_selected_bg"
+            android:gravity="center_horizontal"
+            android:text="圈子"
+            android:textColor="#A89F9C" />
+        
+        <RadioButton
+            android:id="@+id/me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/rub_course_me_not_selected_bg"
+            android:gravity="center_horizontal"
+            android:text="我"
+            android:textColor="#A89F9C" />
+        
+    </RadioGroup>
+
+</LinearLayout>

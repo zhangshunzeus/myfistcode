@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="mainColorOrange">#fa7122</color>
+    <color name="mainColorRed">#f50723</color>
+    <color name="secondColorRed">#f53907</color>
+    <color name="secondColorOrange">#ff8417</color>
+    <color name="lineColor">#EDEDED</color>
+    <color name="bacgroundColor">#EEEEEE</color>
+    <color name="bigTitle">#292929</color>
+    <color name="secondTitle">#051B28</color>
+    <color name="text">#3D4245</color>
+    <color name="textTwo">#686868</color>
+    <color name="remarks">#9B9B9B</color>
+    <color name="text1">#292929</color>
+    <color name="text2">#051B28</color>
+    <color name="text3">#3D4245</color>
+    <color name="text4">#686868</color>
+    <color name="text5">#9B9B9B</color>
+    <color name="orange">#ff8417</color>
+    <color name="red1">#f53907</color>
+    <color name="red2">#f50723</color>
+    <color name="green">#7fc41c</color>
+    <color name="blue">#5aacec</color>
+    <color name="pink">#f53f99</color>
+    <color name="background">#EDEDED</color>
+
+</resources>
