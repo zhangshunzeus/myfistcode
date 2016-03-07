@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="mainColorOrange">#fa7122</color>
+    <color name="mainColorRed">#f50723</color>
+    <color name="secondColorRed">#f53907</color>
+    <color name="secondColorOrange">#ff8417</color>
+    
+    
+    <color name="lineColor">#EDEDED</color>
+    <color name="bacgroundColor">#EEEEEE</color>
+    <color name="bigTitle">#292929</color>
+    <color name="secondTitle">#051B28</color>
+    <color name="text">#3D4245</color>
+    <color name="textTwo">#686868</color>
+    <color name="remarks">#9B9B9B</color>
+    
+</resources>

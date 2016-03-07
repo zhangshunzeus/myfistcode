@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.appferal"
+=======
+    package="com.page.android_feral"
+>>>>>>> zhangwenbin0.1
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,6 +18,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
+<<<<<<< HEAD
             android:name=".MainActivity"
             android:label="@string/app_name" />
         <activity android:name="com.example.appferal.Login_registerActivity" >
@@ -27,13 +32,28 @@
 
         <!-- 个人资料页面 -->
         <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalDataActivity" >
+=======
+            android:name="com.page.android_aboutus.AboutUs"
+            android:label="@string/app_name" >
+           
+            
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.PersonalCenterActivity" >
+        <activity android:name="com.page.android_set.Set_feral">
+            
+>>>>>>> zhangwenbin0.1
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.HomePageActivity" >
+        <activity android:name="com.page.android_circle.Circle">
+            
         </activity>
         <activity android:name="com.zhangshun.chengkezhangshunproject.ClassifyActivity" >
             <intent-filter>
+        <activity android:name="com.page.android_my_resgiration.MyResgiration">
+            
+        </activity>
+        <activity android:name="com.page.android_post_details.PostDetails">
+             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
