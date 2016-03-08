@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sout_fragmenta_raidogroup"
+    android:orientation="horizontal">
+   
+
+    <RadioButton
+        android:id="@+id/sort_title_radio1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:button="@null"
+        android:gravity="center"
+        android:text="课程"
+        
+        android:textSize="20sp" />
+    <TextView
+        android:name="com.xiaozhang.myferal.SortFragmentA"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:background="#000fff"/>
+
+    <RadioButton
+        android:layout_weight="10"
+        android:id="@+id/sort_title_radio2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:gravity="center"
+        android:background="#00f000"
+        android:text="机构"
+        
+        android:textSize="20sp" />
+  
+
+  </RadioGroup>

@@ -10,23 +10,25 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 public class LiteraryActicity extends Activity {
-	ArrayList<LiteraryInfo> list=new ArrayList<LiteraryInfo>();
+	ArrayList<LiteraryInfo> list = new ArrayList<LiteraryInfo>();
 	ListView listView;
 	LiteraryBaseAdapter adapter;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.literary);
-		
-		listView=(ListView) findViewById(R.id.literary_listview);
+
+		listView = (ListView) findViewById(R.id.literary_listview);
 		getData();
-		adapter=new LiteraryBaseAdapter(list, getApplicationContext());
+		adapter = new LiteraryBaseAdapter(list, getApplicationContext());
 		listView.setAdapter(adapter);
 	}
+
 	private void getData() {
 		// TODO Auto-generated method stub
-		LiteraryInfo info=new LiteraryInfo();
+		LiteraryInfo info = new LiteraryInfo();
 		info.setName("中国文学大典");
 		info.setConntent("热爱文学，四书五经，中国文学宝典");
 		info.setUser_id("菜豆");
