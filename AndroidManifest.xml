@@ -74,6 +74,7 @@
         </activity>
         <activity android:name="com.work.teem_work.MyStor" >
         </activity>
+        <activity android:name=".HomeFragment"></activity>
     </application>
 
 </manifest>

@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.appferal.R;
+import com.zhangshun.chengkezhangshunproject.ClassifyActivity;
+import com.zhangshun.chengkezhangshunproject.PersonalDataActivity;
+import com.zhangshun.fragment.HomeFragment;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -51,19 +54,19 @@ public class Circle extends Activity {
 			// TODO Auto-generated method stub
 			switch (arg0.getId()) {
 			case R.id.button_intent_main:
-				Intent intentMain=new Intent();
+				Intent intentMain=new Intent(Circle.this,HomeFragment.class);
 				startActivity(intentMain);
 				break;
 			case R.id.button_intent_classification:
-				Intent intentClassification=new Intent();
+				Intent intentClassification=new Intent(Circle.this,ClassifyActivity.class);
 				startActivity(intentClassification);
 				break;
 			case R.id.button_intent_circle:
-				Intent intentCircle=new Intent();
+				Intent intentCircle=new Intent(Circle.this,Circle.class);
 				startActivity(intentCircle);
 				break;
 			case R.id.button_intent_me:
-				Intent intentMe=new Intent();
+				Intent intentMe=new Intent(Circle.this,PersonalDataActivity.class);
 				startActivity(intentMe);
 				break;
 

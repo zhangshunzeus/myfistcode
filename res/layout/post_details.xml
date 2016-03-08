@@ -15,6 +15,7 @@
         android:padding="8dp" >
 
         <ImageView
+            android:id="@+id/post_details_return"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/rub_course_back_icon" />
